@@ -32,6 +32,8 @@ p {
 /* All feedbacks */
 .feedback {
   border-radius: .5rem;
+  box-shadow: 0 0 7px hsl(217, 19%, 35%);
+  margin: 0 auto;
   padding: 1.8rem;
   width: 90%;
 }
@@ -87,5 +89,6 @@ img {
 }
 
 .attribution {
-  margin-top: 1rem;
+  margin: 1rem auto;
+  align-items: center;
 }
