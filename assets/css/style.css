@@ -32,7 +32,7 @@ p {
 
 /* All feedbacks */
 .feedback {
-  border-radius: 2%;
+  border-radius: .5rem;
   padding: 1.8rem;
   width: 90%;
 }
@@ -60,7 +60,16 @@ img {
 }
 
 #feedback1 h6,
-#feedback1 h5 {
+#feedback1 h5,
+#feedback2 h6,
+#feedback2 h5
+ {
   color: #fff;
 }
+
+#feedback2 {
+  background-color: hsl(217, 19%, 35%); 
+  margin-top: 1.5rem; 
+}
+
 
