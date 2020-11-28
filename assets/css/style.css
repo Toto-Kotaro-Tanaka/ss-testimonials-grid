@@ -63,7 +63,9 @@ img {
 #feedback1 h6,
 #feedback1 h5,
 #feedback2 h6,
-#feedback2 h5
+#feedback2 h5,
+#feedback4 h6,
+#feedback4 h5
  {
   color: #fff;
 }
@@ -74,8 +76,13 @@ img {
 }
 
 #feedback3 {
-  color: hsl(217, 19%, 35%);
   background-color: #fafafa;
+  color: hsl(217, 19%, 35%);
+  margin-top: 1.5rem;
+}
+
+#feedback4 {
+  background-color: hsl(219, 29%, 14%);
   margin-top: 1.5rem;
 }
 
