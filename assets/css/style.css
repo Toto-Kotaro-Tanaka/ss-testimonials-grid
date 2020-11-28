@@ -3,7 +3,6 @@
 body {
   background-color: hsl(210, 46%, 95%);
   font-family: 'Barlow Semi Condensed', sans-serif;
-  margin: 0 auto;
   max-width: 90rem;
   min-width: 23rem;
 }
@@ -60,12 +59,12 @@ img {
   margin-top: 3rem;
 }
 
-#feedback1 h6,
 #feedback1 h5,
-#feedback2 h6,
+#feedback1 h6,
 #feedback2 h5,
-#feedback4 h6,
-#feedback4 h5
+#feedback2 h6,
+#feedback4 h5,
+#feedback4 h6
  {
   color: #fff;
 }
@@ -75,8 +74,9 @@ img {
   margin-top: 1.5rem; 
 }
 
-#feedback3 {
-  background-color: #fafafa;
+#feedback3,
+#feedback5 {
+  background-color: #fff;
   color: hsl(217, 19%, 35%);
   margin-top: 1.5rem;
 }
@@ -86,4 +86,6 @@ img {
   margin-top: 1.5rem;
 }
 
-
+.attribution {
+  margin-top: 1rem;
+}
