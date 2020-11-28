@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+body {
+  background-color: hsl(210, 46%, 95%);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  margin: 0 auto;
+  max-width: 90rem;
+  min-width: 23rem;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  padding: 0;
+  position: relative;
+  margin: 0;
+}
+
+h5 {
+  clear: both;
+  font-weight: 600;
+  margin: 1.5rem 0;
+}
+
+p {
+  color: hsl(0, 0%, 81%);
+  margin: 0;
+}
+
+/* All feedbacks */
+.feedback {
+  border-radius: 2%;
+  padding: 1.8rem;
+  width: 90%;
+}
+
+img {
+  border-radius: 50%;
+  float: left;
+}
+
+.feedback-name {
+  height: 3.5rem;
+  margin-left: 4.5rem;
+}
+
+.feedback-name h6 {
+  margin-bottom: 0;
+  padding-top: .5rem;
+}
+
+#feedback1 {
+  background: url(../images/bg-pattern-quotation.svg) no-repeat;
+  background-color: hsl(263, 55%, 52%);  
+  background-position-x: 95%;
+  background-position-y: 2%;
+}
+
+#feedback1 h6,
+#feedback1 h5 {
+  color: #fff;
+}
+
