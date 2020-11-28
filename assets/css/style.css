@@ -57,6 +57,7 @@ img {
   background-color: hsl(263, 55%, 52%);  
   background-position-x: 95%;
   background-position-y: 2%;
+  margin-top: 3rem;
 }
 
 #feedback1 h6,
@@ -70,6 +71,12 @@ img {
 #feedback2 {
   background-color: hsl(217, 19%, 35%); 
   margin-top: 1.5rem; 
+}
+
+#feedback3 {
+  color: hsl(217, 19%, 35%);
+  background-color: #fafafa;
+  margin-top: 1.5rem;
 }
 
 
